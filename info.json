@@ -1,0 +1,10 @@
+{
+  "name": "SeedsOrMash",
+  "version": "1.0.0",
+  "title": "Seeds Or Mash",
+  "author": "Taurunti",
+  "contact": "thetaurunti@gmail.com",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0", "space-age"],
+  "description": "Changes fruit processing to only yield mash/jelly. Adds a recipe for processing fruit directly into seeds."
+}
