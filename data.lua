@@ -24,10 +24,12 @@ end
 
 -- Set up recipes for mod to alter
 local yumako_processing = data.raw["recipe"]["yumako-processing"]
+yumako_processing.auto_recycle = false
 local yumako_seed_processing = table.deepcopy(yumako_processing)
 yumako_seed_processing.name = "som_yumako-seed-processing"
 
 local jellynut_processing = data.raw["recipe"]["jellynut-processing"]
+jellynut_processing.auto_recycle = false
 local jellynut_seed_processing = table.deepcopy(jellynut_processing)
 jellynut_seed_processing.name = "som_jellynut-seed-processing"
 
