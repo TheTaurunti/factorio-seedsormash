@@ -17,7 +17,7 @@ end
 
 script.on_init(function(_event)
   for _, force in pairs(game.forces) do
-    enable_recipe_if_tech(force, "yumako", "som_yumako-seed-processing")
-    enable_recipe_if_tech(force, "jellynut", "som_jellynut-seed-processing")
+    enable_recipe_if_tech(force, "som_yumako-seed-processing", "yumako")
+    enable_recipe_if_tech(force, "som_jellynut-seed-processing", "jellynut")
   end
 end)
