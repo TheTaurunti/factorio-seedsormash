@@ -3,6 +3,7 @@ Version: 1.0.3
 Date: 2026-11-22
   Features:
     - Version update for 2.1
+    - Altered icons for fruit and seed processing to differentiate the two.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2025-04-19
